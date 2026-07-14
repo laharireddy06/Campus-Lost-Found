@@ -1,0 +1,13 @@
+{
+  "title": "claims",
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer", "description": "Primary key, auto-increment" },
+    "user_id": { "type": "string", "description": "Claimant user ID" },
+    "item_id": { "type": "integer", "description": "ID of the claimed item" },
+    "message": { "type": "string", "description": "Claim message" },
+    "status": { "type": "string", "description": "Pending, Approved, or Rejected" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "notifications",
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer", "description": "Primary key, auto-increment" },
+    "user_id": { "type": "string", "description": "Target user ID" },
+    "message": { "type": "string", "description": "Notification message" },
+    "is_read": { "type": "boolean", "description": "Read status" },
+    "related_item_id": { "type": "integer", "description": "Related item ID" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" }
+  }
+}

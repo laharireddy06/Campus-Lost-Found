@@ -1,0 +1,15 @@
+{
+  "title": "profiles",
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer", "description": "Primary key, auto-increment" },
+    "user_id": { "type": "string", "description": "Owner user ID" },
+    "name": { "type": "string", "description": "Full name" },
+    "college": { "type": "string", "description": "College name" },
+    "department": { "type": "string", "description": "Department name" },
+    "year": { "type": "string", "description": "Year of study" },
+    "contact": { "type": "string", "description": "Contact number" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "items",
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer", "description": "Primary key, auto-increment" },
+    "user_id": { "type": "string", "description": "Owner user ID" },
+    "title": { "type": "string", "description": "Item title" },
+    "description": { "type": "string", "description": "Item description" },
+    "category": { "type": "string", "description": "Item category" },
+    "type": { "type": "string", "description": "Lost or Found" },
+    "images": { "type": "string", "description": "Image URLs" },
+    "location": { "type": "string", "description": "Where item was lost/found" },
+    "status": { "type": "string", "description": "Active, Claimed, Resolved" },
+    "priority": { "type": "string", "description": "Low, Medium, High" },
+    "contact_info": { "type": "string", "description": "Contact details" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" }
+  }
+}

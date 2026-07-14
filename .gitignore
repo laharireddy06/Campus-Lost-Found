@@ -1,0 +1,45 @@
+# Dependency directories
+node_modules/
+frontend/node_modules/
+backend/venv/
+venv/
+.venv/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+
+# Python caching & build files
+__pycache__/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases & logs
+*.db
+backend/*.db
+data.db
+dev.db
+logs/
+backend/logs/
+*.log
+
+# User uploads & static media
+uploads/
+backend/uploads/
+
+# Build caches & compile outputs
+dist/
+frontend/dist/
+.vite/
+frontend/.vite/
+*.tsbuildinfo
+.eslintcache
