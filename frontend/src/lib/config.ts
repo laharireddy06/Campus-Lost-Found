@@ -8,7 +8,7 @@ export function getAPIBaseURL(): string {
   // If VITE_API_BASE_URL is provided, use it. Otherwise default to the
   // frontend origin for production, and to the local backend during
   // development so API calls target the backend server.
-  const envUrl = import.meta.env.VITE_API_BASE_URL?.trim();
+  const envUrl = (import.meta.env.VITE_API_URL || import.meta.env.VITE_API_BASE_URL)?.trim();
   if (envUrl) return envUrl;
 
   // During local development, prefer localhost:8000 as the backend API.
